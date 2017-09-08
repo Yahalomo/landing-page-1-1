@@ -1,0 +1,312 @@
+body {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.iconname{
+    font-size:1.5em;
+    color:blue;
+    font-weight: 600;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.18), white);
+    position: absolute;
+}
+
+.callUs {
+    background-image: url(../img/callus.png);
+    background-size: cover;
+    display: inline-block;
+    padding: 20px;
+    width: 240px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 26px;
+    position: absolute;
+    left: 12%;
+    top: -10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+h3.title {
+    margin-top: 0;
+}
+
+.logoRight {
+    width: 63%;
+    display: block;
+    margin: auto;
+    min-width: 150px;
+    transition: all ease 0.5s;
+}
+
+.subTitle {
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    transition: all ease 0.5s;
+    position:relative;
+    top: 29px;
+    margin-top: 25px;
+}
+
+btn-lg{
+    background-color:#ffffff;
+}
+
+.p{
+    text-align: center;
+    color:##0093e1;
+    font-size:25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.p-d{
+
+    margin-top:120px;
+}
+.easy-icon{
+
+    width: auto;
+}
+.col-md-3{
+    position:relative;
+    top:30px;
+    text-align: center;
+}
+.logoSection {
+    margin-top: 20px;
+}
+
+.testimonial {
+    width: 66%;
+    display: block;
+    margin: auto;
+}
+
+img.logoRight {
+    width: 40%;
+}
+
+.value span {
+    font-size: 23px;
+    padding-right: 30px;
+    transition: all ease 0.5s;
+}
+
+.col-md-6.value {
+    text-align: right;
+    margin-top: 30px;
+    padding-right: 140px;
+}
+
+img.greenTrust {
+    width: 35px;
+    /*width: 40px*/
+}
+
+.col-md-12.contact {
+    position: absolute;
+    bottom: 250px;
+
+}
+
+.col-md-6.contact {
+    background-image: url(../img/callus.png);
+    background-size: cover;
+    height: auto;
+    padding-top: 20px;
+    transition: all ease 0.5s;
+    padding-bottom: 20px;
+}
+
+.col-md-5.value {
+    text-align: right;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+input {
+    border: 1px solid #03b6eb !important;
+    text-align: right;
+}
+
+button#form-submit {
+    height: 45px;
+    border: 1px solid #03b6eb !important;
+    background-color: white;
+    color: #03b6eb;
+    margin-bottom: 20px;
+    line-height: 1px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+p.contactText {
+    text-align: right;
+    color: white;
+}
+
+p.contactText.First {
+    font-size: 24px;
+    font-weight:700;
+}
+
+p.contactText.Second {
+    font-size: 20px;
+    font-weight:700;
+}
+
+
+
+.bottom span {
+    font-size: 25px;
+    padding-right: 30px;
+    color: #0093e1;
+    font-weight: 600;
+}
+
+.col-md-3.bottomSection {
+    border-right: 1px solid #03a0e4;
+}
+
+.col-md-3.bottomSection.Last {
+    border-right: 0px solid #03a0e4;
+}
+
+.col-md-12.bottom.text-center {
+    margin-top: 20px;
+}
+
+.row.footer {
+    margin-top: 40px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.icon-wrapper{
+
+}
+
+@media screen and (max-width: 1430px) {
+    .col-md-5.col-sm-9.contact {
+        height: 210px;
+        background-color: white;
+    }
+    .value span {
+        font-size: 19px;
+    }
+    img.logoRight {
+        width: 40%;
+    }
+    .row.footer {
+        margin-top: 0px;
+        position: relative;
+        bottom: 20px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .col-md-12.callUs {
+        left: 10px;
+        font-size: 19px;
+        width: 170px;
+    }
+    .col-md-12.bottom.text-center {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .col-md-5.col-xs-3.value {
+        text-align: center;
+    }
+
+    .col-xs-6{
+        position: relative;
+        right:-1px;
+        margin-bottom:50px;
+        text-align: center;
+    }
+    img.testimonial {
+        width: 80%;
+    }
+    .col-md-5.col-sm-6.contact {
+        bottom: 0;
+        position: relative;
+        left: 0;
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+    img.logoRight {
+        margin-left: auto;
+        width: 60%;
+        margin-right: 0;
+    }
+    .col-md-6.col-sm-12.logoSection {
+        margin-top: 40px;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 356px) {
+    h4{
+        margin-top:50px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media screen and (min-width: 768px) {
+    .icon-wrapper {
+        margin-top: 50px;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+/* 1 column: 320px */
+.autowide {
+    margin: 0 auto;
+    width: 98%;
+}
+.autowide img {
+    float: right;
+    margin: 0 .75rem 0 0;
+}
+.autowide .module {
+    background-color: lightgrey;
+    border-radius: .25rem;
+    margin-bottom: 1rem;
+}
+.autowide .module p {
+    padding: .25rem .75rem;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    .autowide .module {
+        width: 23.076923076923077%;
+    }
+    .autowide .module:nth-child(3n+0) {
+        margin-right: 2.564102564102564%;
+    }
+    .autowide .module:nth-child(4n+0) {
+        margin-right: 0;
+    }
+}
